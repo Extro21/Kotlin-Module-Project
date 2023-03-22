@@ -23,7 +23,6 @@ class Notes(private val name: String = "") : GeneralClass() {
             notesList[choice - 1].note.menu()
         }
     }
-
     override fun printMenu() {
         println("Список заметок:")
         println("0. Создать заметку")

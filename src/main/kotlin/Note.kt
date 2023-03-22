@@ -26,7 +26,6 @@ class Note : GeneralClass() {
             }
         }
     }
-
     override fun printMenu() {
         println("Заметка:")
         println("0. Написать текст в заметку")

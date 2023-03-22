@@ -25,7 +25,6 @@ class Archive(private val name: String = "") : GeneralClass() {
             archiveList[choice - 1].notes.menu()
         }
     }
-
     override fun printMenu() {
         println("Список архивов:")
         println("0. Создать архив")

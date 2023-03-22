@@ -23,7 +23,6 @@ abstract class GeneralClass {
         }
         return false
     }
-
     fun addMenuText(): String = readLine().toString()
 }
 
